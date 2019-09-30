@@ -185,6 +185,11 @@ p {
   flex-wrap: wrap;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .nav-bar {
+    width: 95%;
+  }
+}
 .nav-bar .title {
   width: 65%;
   display: flex;
@@ -233,6 +238,7 @@ p {
 }
 @media (max-width: 500px) {
   .nav-bar .navigation nav a {
+    font-size: 1.4rem;
     margin: 5px;
   }
 }
