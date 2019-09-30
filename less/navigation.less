@@ -10,12 +10,8 @@
 
     .title  {
         width: 65%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid @nav-border;
-        background-color: @nav-bg;
-        margin-left: 2%;
+        .display-center();
+        .background();
         @media @phone {
             flex-wrap: wrap;
             width: 100%;
@@ -34,10 +30,7 @@
         height: 50px;
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
-        border: 1px solid @nav-border;
-        background-color: @nav-bg;
-        margin-left: 2%;
+        .background();
         @media @phone {
             width: 100%;
             margin-left: 3.5%;

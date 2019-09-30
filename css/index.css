@@ -1,3 +1,14 @@
+.display-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background {
+  align-items: center;
+  border: 1px solid #F1F1F1;
+  background-color: #F6F6F6;
+  margin-left: 2%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
