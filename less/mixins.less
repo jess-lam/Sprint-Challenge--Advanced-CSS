@@ -1,1 +1,16 @@
 // Mixins Here
+.btn-style (@justify, @align) {
+    border: 1px solid @btn-bg-color;
+    background-color: @btn-bg-color;
+    color: white;
+    font-size: 1.8rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: @align;
+    justify-content: @justify;
+}
+
+.btn-size (@width, @height) {
+    width: @width;
+    height: @height;
+}
